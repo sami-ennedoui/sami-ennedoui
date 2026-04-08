@@ -13,7 +13,7 @@ Looking for a **3-year AI/Data apprenticeship** starting September 2026, based i
 
 ## Projects
 
-**[Datasheet Parser & Code Generator](https://github.com/sami-ennedoui)** *(in progress)*  
+**Datasheet Parser & Code Generator** *(in progress)*  
 Built for the N7 Racing Team's BMS pole: a containerized Python tool that parses
 non-standardized component datasheets (PDF) and auto-generates `.h` header files.  
 Functional prototype. Currently working on multi-format robustness and autonomous agent architecture with LLMs.  
@@ -28,7 +28,7 @@ over linear scan for the same dithering method.
 **[chip8-c](https://github.com/sami-ennedoui/chip8-c)**  
 Working CHIP-8 interpreter in C with SDL3 — opcode decoding, memory layout, display timing.  
 Extended with a study of RISC-V 32-bit architecture (instruction set, pipeline, FPGA design in SystemVerilog).  
-`C` `SDL3` `SystemVerilog`
+`C` `SDL3` `emulator` 
 
 ---
 
