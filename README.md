@@ -1,10 +1,10 @@
 # Sami Ennedoui
 
-Engineering student at ENSEEIHT, in the ModIA double diploma with INSA Toulouse, 2025 to 2028. ModIA stands for modelling, data and AI.
+Engineering student at ENSEEIHT, in the ModIA double diploma with INSA Toulouse, 2025 to 2029. ModIA stands for modelling, data and AI.
 
 Two years of prépa MP, then a first year in electrical engineering. Most of what I know I picked up by building things. Signal processing and embedded systems first, low level C next, and applied AI and data more recently. The projects below run in that order.
 
-Looking for a 2 to 3 year AI and Data apprenticeship from September 2026. Based in Toulouse, open to the rest of France.
+I have been an apprentice engineer at CNRS since October 2026, in the IRIT lab in Toulouse. I work on OCS, a platform that describes and publishes research data as a knowledge graph.
 
 ## Projects
 
@@ -15,7 +15,7 @@ My prépa research project. I reordered image traversal with Hilbert, Morton and
 A working CHIP-8 emulator on SDL3. Opcode decoding, a 4 KB memory map, display and timer handling. Sound is the last piece left to add.
 
 **N7 Racing Team, battery management** · since 2025
-Embedded work on the BMS pole: STM32 firmware, CAN, and system modelling in Capella.
+I lead the powertrain and electronics pole for the team's first electric car, aimed at Formula Student 2027. I write the BMS firmware in C on an NXP S32K358 reference kit: cell voltage and temperature thresholds, overcurrent protection, and a safe state on fault.
 
 **[Battery cycle-life prediction](https://github.com/sami-ennedoui/battery-cycle-life)** · 2026
 Early prediction of Li-ion cycle life from the first 100 cycles on the A123 dataset. A reproduction of the Severson 2019 benchmark with a leakage-safe per-cell split and elastic-net against XGBoost, around 15% MAPE. Served behind a FastAPI endpoint with Docker and CI. I owned the framing, the split policy and the evaluation.
@@ -29,13 +29,17 @@ I took the Hilbert curves from my TIPE and tried them as a retrieval index. A Fa
 **[malaigue-from-space, testing a foundation model on a real crisis](https://github.com/sami-ennedoui/malaigue-from-space)** · 2026
 A geospatial pipeline that asks whether the Clay foundation model, used frozen and zero-shot, can see the 2018 malaïgue in the étang de Thau, an anoxic crisis that killed most of the lagoon's shellfish. Sentinel-2 imagery from a STAC API, a geopandas core for masking and reprojection, an NDCI chlorophyll index, and IFREMER in-situ records as ground truth. The answer is no. Clay's embeddings do not track the crisis, and I report that as a clean negative, with the in-situ oxygen as the measurement that does mark it. Python, geopandas, rasterio, PyTorch on CPU.
 
+**[BâtIA, failure prediction for social housing](https://github.com/ai-for-impact-team/batia)** · October 2026
+Built in 24 hours at the IA for Impact 2026 hackathon in Toulouse, in a team of six. We won the Grand Prix. The tool tells a housing landlord which boilers and other equipment to inspect before they fail. I built the failure score, a points table a technician can read line by line. Visiting the 128 highest-ranked units catches 43 of the 76 failures of 2025, against 16 when ranking by age alone. Python, pandas, scikit-learn.
+
 **[AI tech watch with n8n](https://github.com/sami-ennedoui/veille-ia-n8n)** · 2026
 An n8n workflow that follows AI news on its own. It reads RSS feeds from Hugging Face, arXiv and MIT Technology Review every few hours, summarizes each new article with a language model, deduplicates against a state file, and appends the results to Markdown and CSV. Runs in a container.
 
 ## Currently
-- ModIA at ENSEEIHT and INSA Toulouse. First year done, moving into the data and AI core.
-- N7 Racing Team, BMS and telemetry.
-- Co-founded N7 IA, the school's AI club.
+- Apprentice engineer at CNRS, IRIT lab, learning the semantic web on the OCS platform.
+- Second year of ModIA at ENSEEIHT and INSA Toulouse.
+- N7 Racing Team, leading the powertrain and electronics pole and writing the BMS firmware.
+- Co-founded Toulouse IA, a student AI association.
 
 ## Stack
 Python, C, C++, NumPy, SciPy, scikit-learn, pandas, SQL. PyTorch, including a small model I trained with a contrastive loss. RAG, embeddings and vector stores with FAISS and Chroma. geopandas, rasterio and STAC for geospatial work. n8n for workflow automation. Git, GitHub Actions, Docker, Podman, Linux Fedora. TensorFlow at a basics level.
