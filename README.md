@@ -29,7 +29,7 @@ I took the Hilbert curves from my TIPE and tried them as a retrieval index. A Fa
 **[malaigue-from-space, testing a foundation model on a real crisis](https://github.com/sami-ennedoui/malaigue-from-space)** · 2026
 A geospatial pipeline that asks whether the Clay foundation model, used frozen and zero-shot, can see the 2018 malaïgue in the étang de Thau, an anoxic crisis that killed most of the lagoon's shellfish. Sentinel-2 imagery from a STAC API, a geopandas core for masking and reprojection, an NDCI chlorophyll index, and IFREMER in-situ records as ground truth. The answer is no. Clay's embeddings do not track the crisis, and I report that as a clean negative, with the in-situ oxygen as the measurement that does mark it. Python, geopandas, rasterio, PyTorch on CPU.
 
-**[BâtIA, failure prediction for social housing](https://github.com/ai-for-impact-team/batia)** · October 2026
+**BâtIA, failure prediction for social housing** · October 2026
 Built in 24 hours at the IA for Impact 2026 hackathon in Toulouse, in a team of six. We won the Grand Prix. The tool tells a housing landlord which boilers and other equipment to inspect before they fail. I built the failure score, a points table a technician can read line by line. Visiting the 128 highest-ranked units catches 43 of the 76 failures of 2025, against 16 when ranking by age alone. Python, pandas, scikit-learn.
 
 **[AI tech watch with n8n](https://github.com/sami-ennedoui/veille-ia-n8n)** · 2026
